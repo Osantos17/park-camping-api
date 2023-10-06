@@ -1,0 +1,12 @@
+json.id parks_list.id
+json.name parks_list.park.name
+json.city parks_list.park.city
+json.totalsites parks_list.park.totalsites
+json.firstcome parks_list.park.firstcome
+json.reservable parks_list.park.reservable
+json.fees parks_list.park.fees
+json.showers parks_list.park.showers
+json.toilets parks_list.park.toilets
+json.phone parks_list.park.phone
+json.description parks_list.park.description
+json.url parks_list.park.url

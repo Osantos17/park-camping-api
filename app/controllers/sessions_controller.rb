@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  protect_from_forgery
+
   def create
     user = User.find_by(email: params[:email])
     if user && user.authenticate(params[:password])
