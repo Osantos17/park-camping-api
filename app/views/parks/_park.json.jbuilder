@@ -10,3 +10,5 @@ json.toilets park.toilets
 json.phone park.phone
 json.description park.description
 json.url park.url
+json.latitude park.latitude
+json.longitude park.longitude

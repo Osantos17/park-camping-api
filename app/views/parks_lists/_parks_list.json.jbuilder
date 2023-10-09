@@ -10,3 +10,5 @@ json.toilets parks_list.park.toilets
 json.phone parks_list.park.phone
 json.description parks_list.park.description
 json.url parks_list.park.url
+json.latitude parks_list.park.latitude
+json.longitude parks_list.park.longitude

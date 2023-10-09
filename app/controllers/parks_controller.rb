@@ -4,6 +4,12 @@ class ParksController < ApplicationController
     render :index
   end
 
+  def destroy
+    @park = Park.find_by(id: params[:id])
+    recipe.destroy
+    render json: { message: "park removed" }
+  end
+
   # require "http"
   # protect_from_forgery with: :null_session
 
@@ -23,7 +29,9 @@ class ParksController < ApplicationController
   #   #     toilets: park_data['amenities']['toilets'][0],
   #   #     phone: park_data['amenities']['cellPhoneReception'],
   #   #     url: park_data['url'],
-  #   #     description: park_data['description']
+  #   #     description: park_data['description'],
+  # latitude: park_data["latitude"].to_f,
+  # longitude: park_data["longitude"].to_f,
   #   #   )
   #   #   park.save
   #   # end
