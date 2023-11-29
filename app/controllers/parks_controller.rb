@@ -30,8 +30,8 @@ class ParksController < ApplicationController
   #   #     phone: park_data['amenities']['cellPhoneReception'],
   #   #     url: park_data['url'],
   #   #     description: park_data['description'],
-  # latitude: park_data["latitude"].to_f,
-  # longitude: park_data["longitude"].to_f,
+  #         latitude: park_data["latitude"].to_f,
+  #         longitude: park_data["longitude"].to_f,
   #   #   )
   #   #   park.save
   #   # end
